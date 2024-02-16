@@ -1,0 +1,90 @@
+html {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.container > .one {
+    position: fixed;
+    position: absolute;
+    margin-top: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+    color: white;
+    font-size: xx-large;
+}
+.container > .two {
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    color: white;
+    font-size: xx-large;
+
+}
+.container > .three {
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:aqua ;
+    font-size: xx-large;
+    border: none;
+}
+button {
+    background-color: aqua;
+    height: 50px;
+    width: 100px;
+}
+.container > .four{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 150px;
+    font-size: x-large;
+}
+.container span{
+    color: yellow;
+    font-size: x-large;
+}
+.container > .five {
+    position: absolute;
+    text-decoration: underline 2px solid rgb(238, 137, 137);
+    top: 50px;
+    right: 40px; 
+    width: 150px;
+    font-size: x-large;
+}
+.container > .six{
+    position: fixed;
+    position: absolute;
+    text-align: left;
+    justify-content: flex-start;
+    top: 130px;
+    left: -90px;
+}
+.container > .seven{
+    position: absolute;
+    bottom: 80px;
+    right: 16px
+}
+.container > .eight {
+    position: fixed;
+    position: absolute;
+    margin-top: 900px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+}
